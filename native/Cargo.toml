@@ -1,0 +1,19 @@
+[package]
+name = "winepath"
+version = "0.0.0"
+authors = ["Renée Kooi <renee@kooi.me>"]
+license = "MIT"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+edition = "2018"
+
+[lib]
+name = "winepath"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.3.3"
+
+[dependencies]
+neon = "0.3.3"
+winepath = "0.1.1"

@@ -1,0 +1,14 @@
+{
+  "name": "winepath",
+  "version": "0.0.0",
+  "description": "trying out neon",
+  "main": "lib/index.js",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.3.3"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
